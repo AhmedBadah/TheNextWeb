@@ -181,3 +181,44 @@ ul.main-nav{
 .products li article{
 	display: flex;
 }
+.social-icons,
+.footer-links{
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	justify-content: center;
+}
+.social-icons li{
+	margin: 0 8px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	
+	background: #000;
+	border-radius: 50%;
+}
+.social-icons li a{
+	font-size: 16px;
+	color: #fff;
+}
+.footer-links li{
+	margin: 0 6px;
+
+}
+.footer-links li a{
+	color: #000;
+}
+.socials{
+	padding: 42px 0 28px 0;
+	background: #aaa;
+}
+.disclaimer{
+	background: #888;	
+	padding: 39px 0;
+}
+.disclaimer p{
+	text-align: center;
+	color: #fff;
+}
